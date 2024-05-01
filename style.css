@@ -1,0 +1,183 @@
+/* Write some CSS below */
+
+/*div{
+    border: 1px solid red;
+}*/
+
+/* Général */
+
+    body {
+        font-family:'Roboto',sans-serif;
+        background-color: rgb(43, 114, 148);
+        font-size: 18px;
+        font-weight: 450;
+        color: #0077b5;
+        padding-left: 0;
+    }
+
+  h1,h2 {
+    font-family: 'Roboto',sans-serif;
+    }
+
+    h1{
+        color:rgb(43, 114, 148);
+        font-size: 36px;
+        font-weight: 900;
+    }
+
+    h2{
+        font-size: 28px;
+        color:#3c83aa;
+        font-weight: 600;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+/* Bloc bleu */
+
+    .container {
+
+        width: 700px;
+        margin:  20px auto; 
+    }
+
+    .card-blue {
+        background-color: rgb(185, 208, 218);
+        border-radius: 10px;
+        box-shadow: 10px 10px 0 rgba(7, 4, 110, 0.3);
+        padding: 40px;
+        width: 700x;
+        margin: 40px 0;
+        text-align: center;
+        border: 6px solid hsl(201, 71%, 24%);
+    }
+
+
+/* Photo */
+
+    #introduction p {
+        margin-bottom: 30px;
+    }
+
+    .img-circle {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 8px solid hsl(201, 71%, 24%);
+        box-shadow: 8px 3px 0 rgb(57, 153, 195);
+       
+        transition: transform 0.3s;
+        
+    }
+
+    .img-circle:hover {
+        transform: scale(1.1);
+
+    }
+    
+    
+/* Bouton bleu */
+
+   
+
+    .button-blue {
+        background-color: hsl(201, 71%, 24%);
+        color: white;
+        padding: 15px 25px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        box-shadow: 8px 8px 0 rgb(23, 143, 195);
+        transition: 0.5s;
+        display: inline-block;
+    }
+
+    .button-blue:hover {
+        transform: translate(-8px,-8px);
+
+    }
+
+/* Logo réseau */
+
+    .list-inline{
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .list-inline li{
+        display: inline;
+    }
+
+    .list-inline li i{
+        font-size: 35px;
+        color: hsl(201, 71%, 24%);
+        margin: 0 5px;
+    }
+
+    .list-inline li i:hover{
+        opacity: 0.5;
+    }
+
+/* Logo réseau */
+
+    .qualité{
+        list-style: none;
+        padding-left: 0;
+        line-height: 1.6;
+    }
+
+    .qualité li{
+     display: inline;
+    }
+
+    .qualité li{
+        word-spacing: 200%;
+    }
+
+/* Formations */
+
+    .education-section ul {
+        text-align: left;
+      }
+
+      .education-section {
+        font-weight: 400;
+        font-size: 16px;
+      }
+
+/* Exp pro */
+
+      .pro-section ul {
+        text-align: left;
+      }
+
+      .pro-section {
+       
+        font-weight: 400;
+        font-size: 15px;
+      }
+
+/* Responsive */
+
+@media(max-width:750px){
+
+
+    .container {
+
+        width: 650px;
+    
+    }
+}
+
+@media(max-width:635px){
+
+
+    .container {
+
+        width: 580px;
+    
+    }
+}
